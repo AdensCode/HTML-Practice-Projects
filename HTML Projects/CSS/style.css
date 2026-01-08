@@ -41,4 +41,30 @@ nav {
     gap: 1rem;
     margin: 0;
     padding: 0;
+
 }
+
+.nav-list a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 0.95rem;
+}
+
+.nav-list a:hover {
+    color: #fbbf24;
+}
+
+/*Recipe Layout*/
+main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem 3.5rem;
+}
+
+.recipe {
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(15, 4, 29, 0.9);
+    padding: 2rem;
+    color: f9fafb; /* light text color inside dark card*/
+
