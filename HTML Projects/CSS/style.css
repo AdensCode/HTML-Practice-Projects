@@ -67,4 +67,67 @@ main {
     background-color: rgba(15, 4, 29, 0.9);
     padding: 2rem;
     color: f9fafb; /* light text color inside dark card*/
+}
 
+/* HEading Styles*/
+-recipe-header h1 {
+    margin: 0 0 0.5rem;
+    font-size:2.7rem;
+}
+
+.recipe-description {
+    margin: 0 0 1rem;
+    color: #ffffff;
+}
+
+.ingredients {
+    color: #fbbf24;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.recipe-instructions h2 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.37rem;
+    border-bottom: 2px solid rgba(148, 163, 184, 0.6);
+    padding-bottom: 0.25rem;
+}
+
+/* Bob's Halal Beef Burger Image */
+.recipe-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.6);
+}
+
+.recipe-figure figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #cbd5f5;
+}
+
+/*Lists*/
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 3.5rem;
+    line-height: 0.2;
+}
+
+/* Small Screens */
+@media (max-width: 100px) {
+    .recipe {
+        padding: 1.5rem 1.25rem;
+}
+
+.recipe-header h1 {
+    font-size: 1.6rem;
+    }
+}
