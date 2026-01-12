@@ -131,3 +131,31 @@ li {
     font-size: 1.6rem;
     }
 }
+
+/* Bakc to Top Button */
+.back-to-top {
+    display: block;
+    margin: 3rem auto 0;
+    padding:1rem 2.5rem;
+    background: linear-gradient(135deg, #fbff06, #fbbf24);
+    color: tgba (10, 6, 3);
+    border: 2px solid #5e3868;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    font-wight: 900;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(251, 255, 6, 0.3);
+    text-tansform: uppercase;
+    letter-spacing: 0.5rem;
+    transition: all 0.3s ease;
+}
+.back-to-top:hover {
+    background: linear-gradient(135deg, #fbbf24, #fbff06);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(251, 255, 6, 0.5);
+}
+
+.back-to-top:active {
+    transform: translateY(0);
+}
+    
